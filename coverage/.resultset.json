@@ -1,0 +1,322 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/triodec/Desktop/Development/result_analyzer/app/models/daily_result_stat.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          4,
+          4,
+          null,
+          1,
+          3,
+          3,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/models/monthly_average.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/models/results_data.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/jobs/result_data/calculate_daily_result_stats_job.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/jobs/application_job.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/jobs/result_data/calculate_monthly_averages_job.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          3,
+          3,
+          null,
+          3,
+          3,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          3,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/controllers/result_datas_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1686760238
+  },
+  "Cucumber Features": {
+    "coverage": {
+      "/home/triodec/Desktop/Development/result_analyzer/app/controllers/result_datas_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/jobs/result_data/calculate_daily_result_stats_job.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/jobs/application_job.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/jobs/result_data/calculate_monthly_averages_job.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/models/daily_result_stat.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/models/monthly_average.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/triodec/Desktop/Development/result_analyzer/app/models/results_data.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1686760233
+  }
+}

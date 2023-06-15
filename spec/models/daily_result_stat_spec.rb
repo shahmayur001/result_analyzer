@@ -1,3 +1,4 @@
+# spec/models/daily_result_stat_spec.rb
 require 'rails_helper'
 
 RSpec.describe DailyResultStat, type: :model do

@@ -1,4 +1,4 @@
-# spec/requests/users_spec.rb
+# spec/requests/result_datas_spec.rb
 require 'rails_helper'
 
 RSpec.describe 'Result Data API', type: :request do
@@ -26,14 +26,17 @@ RSpec.describe 'Result Data API', type: :request do
     context 'with invalid parameters' do
       let(:invalid_params) do
         {
-          wrong_key: { }
+          "result_data": {
+            "timestamp": "2022-04-18 12:01:34.678",
+            "marks": 85.25
+          }
         }
       end
 
-      it 'does not create a new result data record' do
-        expect {
-          post "/results_data", params: invalid_params
-        }.to raise_error(ActionController::ParameterMissing)
+      it 'does not create a new result data record and return 422 status' do
+        post "/results_data", params: invalid_params
+        expect(response).to have_http_status(422)
+        expect(response.body).to eq("We couldn't store your result in out database")
       end
     end
 

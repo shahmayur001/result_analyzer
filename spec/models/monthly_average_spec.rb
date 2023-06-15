@@ -1,3 +1,4 @@
+# spec/models/monthly_average_spec.rb
 require 'rails_helper'
 
 RSpec.describe MonthlyAverage, type: :model do

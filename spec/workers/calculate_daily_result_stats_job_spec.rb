@@ -1,3 +1,4 @@
+# spec/workers/calculate_daily_result_stats_job_spec.rb
 require 'rails_helper'
 
 RSpec.describe ResultData::CalculateDailyResultStatsJob, type: :job do

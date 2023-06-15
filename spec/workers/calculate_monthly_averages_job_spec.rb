@@ -1,3 +1,4 @@
+# spec/workers/calculate_monthly_averages_job_spec.rb
 require 'rails_helper'
 
 RSpec.describe ResultData::CalculateMonthlyAveragesJob, type: :job do

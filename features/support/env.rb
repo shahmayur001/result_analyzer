@@ -9,6 +9,7 @@
 require 'cucumber/rails'
 require 'cucumber/rspec/doubles'
 require 'rspec/expectations'
+require 'simplecov'
 
 # frozen_string_literal: true
 
@@ -33,6 +34,12 @@ require 'rspec/expectations'
 # recommended as it will mask a lot of errors for you!
 #
 ActionController::Base.allow_rescue = false
+
+SimpleCov.start 'rails' do
+  add_filter 'app/channels'
+  add_filter 'app/mailers'
+  add_filter 'app/models/application_record.rb'
+end
 
 # Remove/comment out the lines below if your app doesn't have a database.
 # For some databases (like MongoDB and CouchDB) you may need to use :truncation instead.

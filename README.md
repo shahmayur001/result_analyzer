@@ -6,7 +6,7 @@
 1. Git clone this repository
      - git clone <repo-url>
 2. `bundle install`
-3. `rails db:create` 
+3. `rails db:create`
 4. `rails db:migrate`
 5. `rails db:seed`
 6. `rails server`
@@ -19,15 +19,16 @@
 - sqlite
 
 ## Schema
-  create_table "daily_result_stats", force: :cascade do |t|
-    t.date "date"
-    t.string "subject"
-    t.decimal "daily_low"
-    t.decimal "daily_high"
-    t.integer "daily_volume"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+```
+create_table "daily_result_stats", force: :cascade do |t|
+  t.date "date"
+  t.string "subject"
+  t.decimal "daily_low"
+  t.decimal "daily_high"
+  t.integer "daily_volume"
+  t.datetime "created_at", null: false
+  t.datetime "updated_at", null: false
+end
 
   create_table "monthly_averages", force: :cascade do |t|
     t.date "date"
@@ -46,14 +47,17 @@
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+  ```
 
 ## Project flow
 - User can hit our endpoint at POST "/results_data" to store their data.
+  ```
   curl --location 'http://localhost:3000/results_data' \
   --header 'Content-Type: application/json' \
   --data '{
   "result_data": {"subject": "Science", "timestamp": "2022-06-11 12:01:34.678", "marks": 99.25}
   }'
+  ```
 
 # RELEASE NOTES
 ## Introduction
@@ -70,7 +74,7 @@ This application can be used to store the user test results.Every day at 6PM, ou
 
 # Additional Features
 ## Test Cases
-- Added Rspec test cases 
+- Added Rspec test cases
  Reference: https://github.com/rspec/rspec-rails
 - Added cucumber test cases
  Reference: https://cucumber.io/docs/tools/ruby/
